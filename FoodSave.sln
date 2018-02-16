@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodSave.DAL", "FoodSave\FoodSave.DAL.csproj", "{A73C6EF3-539D-40D2-9724-E045D6EAEA1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodSave.DAL", "FoodSave\FoodSave.DAL.csproj", "{A73C6EF3-539D-40D2-9724-E045D6EAEA1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodSave.Models", "FoodSave.Models\FoodSave.Models.csproj", "{DE21DC3A-9333-47E6-97CE-D0729E00A598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodSave.Models", "FoodSave.Models\FoodSave.Models.csproj", "{DE21DC3A-9333-47E6-97CE-D0729E00A598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodSave.DAL.Tests", "FoodSave.DAL.Tests\FoodSave.DAL.Tests.csproj", "{1EE44ED6-C5B4-4B50-9B10-81618F83A949}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodSave.DAL.Tests", "FoodSave.DAL.Tests\FoodSave.DAL.Tests.csproj", "{1EE44ED6-C5B4-4B50-9B10-81618F83A949}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseBackup", "DatabaseBackup", "{E813954A-6C28-42CE-BCCA-8FD7C282D94C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\script.sql = ..\..\..\Documents\script.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
